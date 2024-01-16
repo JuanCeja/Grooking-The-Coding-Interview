@@ -9,7 +9,11 @@
 // Output: true - '1' is repeating.
 
 function containsDuplicate(nums) {
-    // TODO: Write your code here
+    // create set to add our values
+    // iterate nums
+        // if value exists in set return true
+        // else add it to the set
+    // return false
     return false;
 };
 
