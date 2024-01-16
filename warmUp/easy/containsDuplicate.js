@@ -9,11 +9,11 @@
 // Output: true - '1' is repeating.
 
 function containsDuplicate(nums) {
-    // create set to add our values
-    // iterate nums
-        // if value exists in set return true
-        // else add it to the set
-    // return false
+    let mySet = new Set();
+    for (let num of nums) {
+        if (mySet.has(num)) return true;
+        else mySet.add(num);
+    }
     return false;
 };
 
